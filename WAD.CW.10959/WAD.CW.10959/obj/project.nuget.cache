@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iwK7PrHhMnBCRONiyMPkj0oIUGj7lz5BQRNJRs4oRrTrKN/Y8K5uoFcz18HDEZneB4CncX01Q1YcheUerNi8Mw==",
+  "dgSpecHash": "tLg43ZZ0BStd41eNM2Ap75jomfOxaTbZD3B8HYXqaa7Z7+/8z60hq5MUinuCnw8zF5Ccm7QqauJ6SLiUPAgDaQ==",
   "success": true,
   "projectFilePath": "/Users/dkayym/Documents/Study/WAD/WAD.Entry1.00010959/WAD.CW.10959/WAD.CW.10959/WAD.CW.10959.csproj",
   "expectedPackageFiles": [
@@ -89,10 +89,7 @@
     "/Users/dkayym/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/Users/dkayym/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
     "/Users/dkayym/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "/Users/dkayym/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "/Users/dkayym/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "/Users/dkayym/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.32/microsoft.netcore.app.host.osx-x64.3.1.32.nupkg.sha512",
-    "/Users/dkayym/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+    "/Users/dkayym/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -41,7 +41,6 @@
 /Users/dkayym/Documents/Study/WAD/WAD.CW.10959/WAD.CW.10959/obj/Debug/netcoreapp3.1/staticwebassets/msbuild.buildTransitive.WAD.CW.10959.props
 /Users/dkayym/Documents/Study/WAD/WAD.Entry1.00010959/WAD.CW.10959/WAD.CW.10959/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /Users/dkayym/Documents/Study/WAD/WAD.Entry1.00010959/WAD.CW.10959/WAD.CW.10959/bin/Debug/netcoreapp3.1/appsettings.json
-/Users/dkayym/Documents/Study/WAD/WAD.Entry1.00010959/WAD.CW.10959/WAD.CW.10959/bin/Debug/netcoreapp3.1/WAD.CW.10959
 /Users/dkayym/Documents/Study/WAD/WAD.Entry1.00010959/WAD.CW.10959/WAD.CW.10959/bin/Debug/netcoreapp3.1/WAD.CW.10959.deps.json
 /Users/dkayym/Documents/Study/WAD/WAD.Entry1.00010959/WAD.CW.10959/WAD.CW.10959/bin/Debug/netcoreapp3.1/WAD.CW.10959.runtimeconfig.json
 /Users/dkayym/Documents/Study/WAD/WAD.Entry1.00010959/WAD.CW.10959/WAD.CW.10959/bin/Debug/netcoreapp3.1/WAD.CW.10959.runtimeconfig.dev.json
@@ -77,11 +76,6 @@
 /Users/dkayym/Documents/Study/WAD/WAD.Entry1.00010959/WAD.CW.10959/WAD.CW.10959/obj/Debug/netcoreapp3.1/WAD.CW.10959.RazorAssemblyInfo.cache
 /Users/dkayym/Documents/Study/WAD/WAD.Entry1.00010959/WAD.CW.10959/WAD.CW.10959/obj/Debug/netcoreapp3.1/WAD.CW.10959.RazorAssemblyInfo.cs
 /Users/dkayym/Documents/Study/WAD/WAD.Entry1.00010959/WAD.CW.10959/WAD.CW.10959/obj/Debug/netcoreapp3.1/staticwebassets/WAD.CW.10959.StaticWebAssets.Manifest.cache
-/Users/dkayym/Documents/Study/WAD/WAD.Entry1.00010959/WAD.CW.10959/WAD.CW.10959/obj/Debug/netcoreapp3.1/staticwebassets/WAD.CW.10959.StaticWebAssets.Pack.cache
-/Users/dkayym/Documents/Study/WAD/WAD.Entry1.00010959/WAD.CW.10959/WAD.CW.10959/obj/Debug/netcoreapp3.1/staticwebassets/msbuild.WAD.CW.10959.Microsoft.AspNetCore.StaticWebAssets.props
-/Users/dkayym/Documents/Study/WAD/WAD.Entry1.00010959/WAD.CW.10959/WAD.CW.10959/obj/Debug/netcoreapp3.1/staticwebassets/msbuild.build.WAD.CW.10959.props
-/Users/dkayym/Documents/Study/WAD/WAD.Entry1.00010959/WAD.CW.10959/WAD.CW.10959/obj/Debug/netcoreapp3.1/staticwebassets/msbuild.buildMultiTargeting.WAD.CW.10959.props
-/Users/dkayym/Documents/Study/WAD/WAD.Entry1.00010959/WAD.CW.10959/WAD.CW.10959/obj/Debug/netcoreapp3.1/staticwebassets/msbuild.buildTransitive.WAD.CW.10959.props
 /Users/dkayym/Documents/Study/WAD/WAD.Entry1.00010959/WAD.CW.10959/WAD.CW.10959/obj/Debug/netcoreapp3.1/WAD.CW.10959.TagHelpers.input.cache
 /Users/dkayym/Documents/Study/WAD/WAD.Entry1.00010959/WAD.CW.10959/WAD.CW.10959/obj/Debug/netcoreapp3.1/WAD.CW.10959.TagHelpers.output.cache
 /Users/dkayym/Documents/Study/WAD/WAD.Entry1.00010959/WAD.CW.10959/WAD.CW.10959/obj/Debug/netcoreapp3.1/WAD.CW.10959.RazorCoreGenerate.cache

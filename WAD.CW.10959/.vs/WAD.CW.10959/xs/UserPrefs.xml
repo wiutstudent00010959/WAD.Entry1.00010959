@@ -1,38 +1,38 @@
-﻿<Properties StartupConfiguration="{1AAE5E14-BF55-4CA7-B2BD-90DE1F7F6149}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.WAD.CW.10959 PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="WAD.CW.10959/Views/Home/Index.cshtml">
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{1AAE5E14-BF55-4CA7-B2BD-90DE1F7F6149}|Default">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="WAD.CW.10959/wwwroot/css/site.css" Line="1" Column="1" />
-      <File FileName="WAD.CW.10959/Views/Shared/_Layout.cshtml" Line="28" Column="94" />
-      <File FileName="WAD.CW.10959/Views/Home/Index.cshtml" Line="21" Column="92" />
+      <File FileName="WAD.CW.10959/Views/Shared/_Layout.cshtml" />
+      <File FileName="WAD.CW.10959/Views/Home/Index.cshtml" />
+      <File FileName=".vs/WAD.CW.10959/xs/UserPrefs.xml" />
+      <File FileName=".vs/WAD.CW.10959/xs/project-cache/WAD.CW.10959-Debug.json" Line="1" Column="48" />
+      <File FileName="WAD.CW.10959/appsettings.json" />
+      <File FileName="WAD.CW.10959/Properties/launchSettings.json" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="WAD.CW.10959" expanded="True">
+          <Option id="ShowAllFiles" value="True" />
+          <Node name="WAD.CW.10959" expanded="True" selected="True">
             <Node name="WAD.CW.10959" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
-                <Node name="Shared" expanded="True" />
-              </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True" />
               </Node>
+              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.WAD.CW.10959 PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
 </Properties>
