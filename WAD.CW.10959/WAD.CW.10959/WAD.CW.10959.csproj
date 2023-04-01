@@ -5,4 +5,7 @@
     <RootNamespace>WAD.CW._10959</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.0" />
+  </ItemGroup>
 </Project>
