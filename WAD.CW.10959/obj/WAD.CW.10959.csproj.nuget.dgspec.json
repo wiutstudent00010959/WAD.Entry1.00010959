@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< Updated upstream:WAD.CW.10959/obj/WAD.CW.10959.csproj.nuget.dgspec.json
     "C:\\Users\\User\\Desktop\\WAD.Entry1.00010959\\WAD.CW.10959\\WAD.CW.10959.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\User\\Desktop\\WAD.Entry1.00010959\\WAD.CW.10959\\WAD.CW.10959.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\User\\Desktop\\WAD.Entry1.00010959\\WAD.CW.10959\\obj\\",
+=======
+    "C:\\Users\\User\\Desktop\\WAD.CW.00010959\\WAD.CW.00010959.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\User\\Desktop\\WAD.CW.00010959\\WAD.CW.00010959.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\WAD.CW.00010959\\WAD.CW.00010959.csproj",
+        "projectName": "WAD.CW.00010959",
+        "projectPath": "C:\\Users\\User\\Desktop\\WAD.CW.00010959\\WAD.CW.00010959.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\WAD.CW.00010959\\obj\\",
+>>>>>>> Stashed changes:WAD.CW.00010959/obj/WAD.CW.00010959.csproj.nuget.dgspec.json
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

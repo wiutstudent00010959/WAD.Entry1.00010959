@@ -11,7 +11,11 @@
 using System;
 using System.Reflection;
 
+<<<<<<< Updated upstream:WAD.CW.10959/obj/Debug/netcoreapp3.1/WAD.CW.10959.AssemblyInfo.cs
 [assembly: System.Reflection.AssemblyCompanyAttribute("WAD.CW.10959")]
+=======
+[assembly: System.Reflection.AssemblyCompanyAttribute("WAD.CW.00010959")]
+>>>>>>> Stashed changes:WAD.CW.00010959/obj/Debug/netcoreapp3.1/WAD.CW.00010959.AssemblyInfo.cs
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]

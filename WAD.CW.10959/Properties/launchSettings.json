@@ -3,7 +3,11 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
+<<<<<<< Updated upstream:WAD.CW.10959/Properties/launchSettings.json
       "applicationUrl": "http://localhost:22644",
+=======
+      "applicationUrl": "http://localhost:55163",
+>>>>>>> Stashed changes:WAD.CW.00010959/Properties/launchSettings.json
       "sslPort": 0
     }
   },
