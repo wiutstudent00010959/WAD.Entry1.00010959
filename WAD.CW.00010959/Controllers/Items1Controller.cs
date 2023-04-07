@@ -9,22 +9,22 @@ using WAD.CW._00010959.Models;
 
 namespace WAD.CW._00010959.Controllers
 {
-    public class ItemsController : Controller
+    public class Items1Controller : Controller
     {
         private readonly ItemContext _context;
 
-        public ItemsController(ItemContext context)
+        public Items1Controller(ItemContext context)
         {
             _context = context;
         }
 
-        // GET: Items
+        // GET: Items1
         public async Task<IActionResult> Index()
         {
             return View(await _context.Items.ToListAsync());
         }
 
-        // GET: Items/Details/5
+        // GET: Items1/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -42,40 +42,29 @@ namespace WAD.CW._00010959.Controllers
             return View(item);
         }
 
-        // GET: Items/Create
+        // GET: Items1/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Items/Create
+        // POST: Items1/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Title,Description,Quantity,IsPurchased,PurchaseDate")] Item item)
         {
-            try
+            if (ModelState.IsValid)
             {
-                if (ModelState.IsValid)
-                {
-                    _context.Add(item);
-                    await _context.SaveChangesAsync();
-                    return RedirectToAction(nameof(Index));
-                }
-                
+                _context.Add(item);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
             }
-            
-            catch (DbUpdateException /* ex */)
-            {
-                //Log the error (uncomment ex variable name and write a log.
-                ModelState.AddModelError("", "Unable to save changes. " +
-                    "Try again, and if the problem persists " +
-                    "see your system administrator.");
-            } return View(item);
+            return View(item);
         }
 
-        // GET: Items/Edit/5
+        // GET: Items1/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -91,7 +80,7 @@ namespace WAD.CW._00010959.Controllers
             return View(item);
         }
 
-        // POST: Items/Edit/5
+        // POST: Items1/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -126,7 +115,7 @@ namespace WAD.CW._00010959.Controllers
             return View(item);
         }
 
-        // GET: Items/Delete/5
+        // GET: Items1/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -144,7 +133,7 @@ namespace WAD.CW._00010959.Controllers
             return View(item);
         }
 
-        // POST: Items/Delete/5
+        // POST: Items1/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

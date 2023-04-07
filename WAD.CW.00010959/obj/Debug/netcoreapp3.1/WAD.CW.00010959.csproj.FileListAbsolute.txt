@@ -148,3 +148,8 @@ C:\Users\User\Desktop\WAD.Entry1.00010959\WAD.CW.00010959\bin\Debug\netcoreapp3.
 C:\Users\User\Desktop\WAD.Entry1.00010959\WAD.CW.00010959\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\User\Desktop\WAD.Entry1.00010959\WAD.CW.00010959\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\User\Desktop\WAD.Entry1.00010959\WAD.CW.00010959\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\WAD.Entry1.00010959\WAD.CW.00010959\obj\Debug\netcoreapp3.1\Razor\Views\Items1\Create.cshtml.g.cs
+C:\Users\User\Desktop\WAD.Entry1.00010959\WAD.CW.00010959\obj\Debug\netcoreapp3.1\Razor\Views\Items1\Delete.cshtml.g.cs
+C:\Users\User\Desktop\WAD.Entry1.00010959\WAD.CW.00010959\obj\Debug\netcoreapp3.1\Razor\Views\Items1\Details.cshtml.g.cs
+C:\Users\User\Desktop\WAD.Entry1.00010959\WAD.CW.00010959\obj\Debug\netcoreapp3.1\Razor\Views\Items1\Edit.cshtml.g.cs
+C:\Users\User\Desktop\WAD.Entry1.00010959\WAD.CW.00010959\obj\Debug\netcoreapp3.1\Razor\Views\Items1\Index.cshtml.g.cs
