@@ -11,6 +11,8 @@ namespace WAD.CW._00010959.Models
         public string Title { get; set; }
         public string Description { get; set; }
         public DateTime CreatedDate { get; set; }
+        // public List<Item> Items { get; set; }
         public List<Item> Items { get; set; }
+        public List<List> Lists { get; set; }
     }
 }

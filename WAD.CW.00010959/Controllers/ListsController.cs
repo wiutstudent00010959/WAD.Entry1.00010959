@@ -21,7 +21,20 @@ namespace WAD.CW._00010959.Controllers
         // GET: Lists
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Lists.ToListAsync());
+            var lists = await _context.Lists
+        .Include(l => l.Items)
+        .Select(l => new ListItemsViewModel
+        {
+            ListId = l.Id,
+            Title = l.Title,
+            Description = l.Description,
+            CreatedDate = l.CreatedDate,
+            Items = l.Items.ToList()
+        })
+        .ToListAsync();
+
+            return View(lists);
+            // return View(await _context.Lists.ToListAsync());
         }
 
         // GET: Lists/Details/5
@@ -143,7 +156,14 @@ namespace WAD.CW._00010959.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
-
+       /* public IActionResult IndexWithItems()
+        {
+            var model = new ListItemsViewModel
+            {
+                Lists = _context.Lists.Include(l => l.Items).ToList()
+            };
+            return View(model);
+        }*/
         private bool ListExists(int id)
         {
             return _context.Lists.Any(e => e.Id == id);
