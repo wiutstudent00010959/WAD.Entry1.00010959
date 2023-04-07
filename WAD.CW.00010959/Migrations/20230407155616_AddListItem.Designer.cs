@@ -10,14 +10,14 @@ using WAD.CW._00010959.Models;
 namespace WAD.CW._00010959.Migrations
 {
     [DbContext(typeof(ItemContext))]
-    [Migration("20230407075732_ItemMigration")]
-    partial class ItemMigration
+    [Migration("20230407155616_AddListItem")]
+    partial class AddListItem
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.1.0")
+                .HasAnnotation("ProductVersion", "3.1.32")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -37,6 +37,9 @@ namespace WAD.CW._00010959.Migrations
                         .HasColumnType("bit")
                         .HasDefaultValue(false);
 
+                    b.Property<int>("ListId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("PurchaseDate")
                         .HasColumnType("date");
 
@@ -52,7 +55,42 @@ namespace WAD.CW._00010959.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("ListId");
+
                     b.ToTable("Items");
+                });
+
+            modelBuilder.Entity("WAD.CW._00010959.Models.List", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("date");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(500)")
+                        .HasMaxLength(500);
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(50)")
+                        .HasMaxLength(50);
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Lists");
+                });
+
+            modelBuilder.Entity("WAD.CW._00010959.Models.Item", b =>
+                {
+                    b.HasOne("WAD.CW._00010959.Models.List", "List")
+                        .WithMany("Items")
+                        .HasForeignKey("ListId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

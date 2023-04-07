@@ -24,5 +24,10 @@ namespace WAD.CW._00010959.Models
         [DataType(DataType.Date)]
         [Display(Name = "Purchase Date")]
         public DateTime PurchaseDate { get; set; }
+
+
+        //naigatin prperties fr cnnectin with List class
+        public int ListId { get; set; }
+        public List List { get; set; }
     }
 }
