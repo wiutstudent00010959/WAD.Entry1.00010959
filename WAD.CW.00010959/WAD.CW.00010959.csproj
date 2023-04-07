@@ -6,14 +6,22 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Views\Items\**" />
-    <Content Remove="Views\Items\**" />
-    <EmbeddedResource Remove="Views\Items\**" />
-    <None Remove="Views\Items\**" />
+    <Compile Remove="Views\Items1\**" />
+    <Content Remove="Views\Items1\**" />
+    <EmbeddedResource Remove="Views\Items1\**" />
+    <None Remove="Views\Items1\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Remove="Controllers\ItemsController.cs" />
+    <Compile Remove="Controllers\Items1Controller.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Items\Create.cshtml" />
+    <None Include="Views\Items\Delete.cshtml" />
+    <None Include="Views\Items\Details.cshtml" />
+    <None Include="Views\Items\Edit.cshtml" />
+    <None Include="Views\Items\Index.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
